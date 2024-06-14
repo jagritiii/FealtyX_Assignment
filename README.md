@@ -18,9 +18,7 @@ The objective of this project is to create an API that handles basic CRUD operat
 2. **Initialize Go module:**
    ```bash
    go mod tidy
-3. **Install dependencies:**
-   ```bash
-4. **Run the application:**
+3. **Run the application:**
    ```bash
    go run main.go
 
