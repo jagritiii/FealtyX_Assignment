@@ -100,7 +100,7 @@ func DeleteStudentByID(c echo.Context) error {
 		log.Println(err.Error())
 		return c.JSON(http.StatusInternalServerError, enums.DeleteFailed)
 	}
-	return c.NoContent(http.StatusNoContent)
+	return c.JSON(http.StatusNoContent, enums.DeleteSucceeded)
 }
 
 func GenerateStudentSummary(c echo.Context) error {
